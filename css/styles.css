@@ -1,0 +1,154 @@
+/*FONTS*/
+
+
+/*UNIVERSALS*/
+a {
+    text-decoration: none;
+}
+
+h1, h2, h4 {
+    font-family: ;
+}
+
+p, a {
+    font-family: ;
+}
+
+.block {
+    display: block;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+.base-color {
+    color: ;
+}
+
+.accent-color{
+    
+}
+
+.text-center {
+    text-align: center;
+}
+
+.nav-container {
+    border-bottom: 3px solid #00aea1;
+    font-family: sans-serif;
+    font-weight: 800;
+    height: 91px;
+}
+
+.logo {
+    display: inline-block;
+    color: #47d1d1;
+    position: absolute;
+    top: 0;
+}
+
+.nav-items {
+    text-align: right;
+    position: absolute;
+    top: 30px;
+    right: 5px;
+}
+
+.nav-items .listed-nav_item {
+    display: inline-block;
+}
+
+.nav-items .listed-nav_item a {
+    display: block;
+    padding: 10px 10px 5px 10px;
+    color: #008175;
+    font-weight: 300;
+}
+
+/*hero section*/
+.hero {
+    height: 425px;
+    background-image: url('../images/rollerrink.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 30%;
+}
+
+.hero h1 {
+    margin-top: 0;
+    color: #fff;
+    text-align: center;
+}
+
+/*Sidebar Section*/
+aside {
+    box-sizing: border-box;
+    height: 300px;
+    width: 30%;
+    border: 2px solid #00aea1;
+}
+
+.blog-links {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+}
+
+.blog-links li {
+    height: 25%;
+    text-align: center;
+}
+
+.blog-links li a {
+    color: black;
+    font-family: helvetica;
+    font-size: 20px;
+}
+
+.blog-links li:hover {
+    background-color: #00aea1;
+}
+
+.blog-links li a:hover {
+    color: green;
+}
+
+main {
+    width: 70%;
+    height: 300px;
+    overflow: auto;
+    padding: 0px 10px;
+    box-sizing: border-box;
+}
+
+main p {
+    line-height: 40px;
+    letter-spacing: 5px;
+    font-size: 18px;
+}
+
+/*footer styles*/
+footer {
+    height: 110px;
+    background-color: black; 
+    color: #fff;
+    clear: both;
+}
+
+.social-media a {
+    color: #fff;
+}
+
+.social-media a:hover {
+    color: #00aea1;
+}
+
+.social-media i {
+    margin: 0px 12px;
+}

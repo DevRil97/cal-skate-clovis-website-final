@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand+SC');
+
+#about-feature {
+    height: 300px;
+    width: 80%;
+    float: left;
+    background-image: url('../images/rollerrink.jpg');
+    background-size: 100%;
+    background-position: center;
+}
+
+aside {
+    float: right;
+    width: 20%;
+    height: 300px;
+    background-color: #FF4747;
+    color: white;
+    border: none;
+    padding-top: 4em;
+    font-family: 'Patrick hand SC';
+}
+
+.column {
+    height: 450px;
+    width: 33.33%;
+    float: left;
+    text-align: justify;
+    position: relative;
+    padding: 0px 8px;
+    box-sizing: border-box;
+}
+
+#col-1 button {
+    background-color: red;
+    border: none;
+    padding: 4%;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+}
